@@ -80,10 +80,11 @@
     margin-right: auto;
 }
 
-.plans-container h3{
+.plans-container h3 {
     text-align: center;
 }
-.plans-container p{
+
+.plans-container p {
     font-weight: 600;
     font-size: 18px;
     text-align: center;
@@ -92,27 +93,93 @@
 }
 
 /* call now section  */
-.call-now{
+.call-now {
     margin: 100px;
-    background-image: url(../images/gradient2.png),url(../images/watch.png);
+    background-image: url(../images/gradient2.png), url(../images/watch.png);
     border-radius: 10px;
 }
-.call-now-text{
+
+.call-now-text {
     text-align: left;
-    padding: 50px 500px 50px 50px; 
+    padding: 50px 500px 50px 50px;
 }
 
-.call-now-text h1{
+.call-now-text h1 {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 40px;
 }
 
-.call-now-text button{
+.call-now-text button {
     height: 64px;
     background: #FFFFFF;
     border-radius: 5px;
     font-weight: 300;
+    font-size: 20px;
+    color: #FD6E0A;
+    border: 0;
+    padding: 18px 35px;
+    margin-top: 20px;
+}
+
+/* footer section */
+footer {
+    background-color: black;
+    margin: 0 10px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+/* footer left content */
+footer .left-content{
+    padding: 100px;
+}
+footer .left-content-title {
+    color:#FFFFFF;
+}
+footer .left-content-description{
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+footer .left-content-email{
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+footer .left-content-phone{
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+.left-content-icons img{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+/* footer right content */
+footer .right-content{
+    padding: 200px;
+}
+footer .right-content-title{
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+footer .right-content input[type="email"]{
+    font-size: 20px;
+    color:white;
+    background-color: black;
+    border-radius: 5px;
+    border-color: white;
+    padding: 10px 50px 10px 10px;
+}
+
+
+.right-content button {
+    height: 64px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-weight: 600;
     font-size: 20px;
     color: #FD6E0A;
     border: 0;
